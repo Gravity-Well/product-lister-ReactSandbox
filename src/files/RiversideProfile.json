@@ -1,0 +1,87 @@
+{
+  "Fleet": {
+    "Id": "45678",
+    "Name": "Transco Lines",
+    "Version": "$Latest",
+    "Update": "2020-05-06",
+    "Preferences": [
+      {
+        "Division": "Riverside Transport",
+        "UnitType": {
+          "StringLike": "%Tractor%"
+        },
+        "TireSize": {
+          "Include": [
+            "*"
+          ],
+          "Exclude": [
+            "WB"
+          ]
+        },
+        "Positions": {
+          "Steer": [
+            {
+              "Type": "New",
+              "Tread": "Yokohama 101ZL",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Yokohama RY617",
+              "LoadRange": "Any"
+            }
+          ],
+          "Drive": [
+            {
+              "Type": "New",
+              "Tread": "Yokohama TY517",
+              "LoadRange": "Any"
+            }
+          ]
+        }
+      },
+      {
+        "Division": "Riverside Transport",
+        "UnitType": {
+          "StringLike": "%Tractor%"
+        },
+        "TireSize": {
+          "Include": [
+            "WB"
+          ],
+          "Exclude": ""
+        },
+        "Positions": {
+          "Drive": [
+            {
+              "Type": "New",
+              "Tread": "Yokohama 902L UWB",
+              "LoadRange": "Any"
+            }
+          ]
+        }
+      },
+      {
+        "Division": "Riverside Transport",
+        "UnitType": {
+          "StringLike": "%Trailer%"
+        },
+        "TireSize": {
+          "Include": [
+            "*"
+          ],
+          "Exclude": ""
+        },
+        "Positions": {
+          "Trailer": [
+            {
+              "Type": "New",
+              "Tread": "Yokohama BE 109L",
+              "LoadRange": "Any"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

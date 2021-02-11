@@ -1,0 +1,270 @@
+{
+  "Fleet": {
+    "Id": "98765",
+    "Name": "Werner Enterprises",
+    "Version": "$Latest",
+    "Update": "2020-05-06",
+    "Preferences": [
+      {
+        "UnitType": {
+          "StringLike": "%Tractor%"
+        },
+        "TireSize": {
+          "Include": [
+            "*"
+          ],
+          "Exclude": [
+            "WB"
+          ]
+        },
+        "Positions": {
+          "Steer": [
+            {
+              "Type": "New",
+              "Tread": "Bridgestone R283A",
+              "LoadRange": "H"
+            },
+            {
+              "Type": "New",
+              "Tread": "Bridgestone R283A",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Continental HS3 Ecoplus",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Goodyear Endurance LHS",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Goodyear G399A LHS",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Michelin XLine Energy Z",
+              "LoadRange": "Any"
+            }
+          ],
+          "Drive": [
+            {
+              "Type": "New",
+              "Tread": "Bridgestone M710 Ecopia",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Continental HDL2 Ecoplus",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Goodyear G572",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Goodyear Endurance LHD",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Michelin Xline Energy D",
+              "LoadRange": "Any"
+            }
+          ]
+        },
+        "Wheels": {
+          "Steer": [
+            {
+              "Type": "10-hole HubPilot",
+              "Material": "Aluminium"
+            }
+          ],
+          "Drive": [
+            {
+              "Type": "10-hole HubPilot",
+              "Material": "Aluminium"
+            }
+          ]
+        }
+      },
+      {
+        "UnitType": {
+          "StringLike": "%Trailer%"
+        },
+        "TireSize": {
+          "Include": [
+            "*"
+          ],
+          "Exclude": [
+            "WB"
+          ]
+        },
+        "Positions": {
+          "Trailer": [
+            {
+              "Type": "Repair",
+              "Tread": "Repair",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "Spare",
+              "Tread": "Spare",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "Retread",
+              "Tread": "Bandag B197",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "Retread",
+              "Tread": "Bandag FCR",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "Retread",
+              "Tread": "Oliver Vantage II",
+              "LoadRange": "Any",
+              "Note": "Only at Love's"
+            },
+            {
+              "Type": "Retread",
+              "Tread": "Goodyear G316",
+              "LoadRange": "Any",
+              "Note": "Only at TA/Petro"
+            },
+            {
+              "Type": "Retread",
+              "Tread": "Michelin XT-1",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Bridgestone R197",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Continental HT3 Ecoplus",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Goodyear G316 LHT",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Michelin XLine Energy T",
+              "LoadRange": "Any"
+            }
+          ]
+        },
+        "Wheels": {
+          "Trailer": [
+            {
+              "Type": "10-hole HubPilot",
+              "Material": "Steel"
+            }
+          ]
+        }
+      },
+      {
+        "UnitType": {
+          "StringLike": "%Tractor%"
+        },
+        "TireSize": {
+          "Include": [
+            "WB"
+          ],
+          "Exclude": ""
+        },
+        "Positions": {
+          "Drive": [
+            {
+              "Type": "New",
+              "Tread": "Bridgestone Greatec M835 Ecopia",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Goodyear G392 Duraseal",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Michelin Xone Line Energy D",
+              "LoadRange": "Any"
+            }
+          ]
+        },
+        "Wheels": {
+          "Steer": [
+            {
+              "Type": "10-hole HubPilot",
+              "Material": "Aluminium",
+              "Offset": "0"
+            }
+          ],
+          "Drive": [
+            {
+              "Type": "10-hole HubPilot",
+              "Material": "Aluminium",
+              "Offset": "0"
+            }
+          ]
+        }
+      },
+      {
+        "UnitType": {
+          "StringLike": "%Trailer%"
+        },
+        "TireSize": {
+          "Include": [
+            "WB"
+          ],
+          "Exclude": ""
+        },
+        "Positions": {
+          "Trailer": [
+            {
+              "Type": "New",
+              "Tread": "Bridgestone Greatec R197 Ecopia",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Continental HTL1 Ecoplus",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Goodyear G394 Duraseal",
+              "LoadRange": "Any"
+            },
+            {
+              "Type": "New",
+              "Tread": "Michelin Xone Line Energy T",
+              "LoadRange": "Any"
+            }
+          ]
+        },
+        "Wheels": {
+          "Trailer": [
+            {
+              "Type": "10-hole HubPilot",
+              "Material": "Steel",
+              "Offset": "2"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
