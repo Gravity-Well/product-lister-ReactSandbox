@@ -14,21 +14,6 @@ import {CssBaseline,Typography,createMuiTheme, Paper, FormControlLabel} from "@m
 
 
 
-
-
-
-
-import riverJson from './files/RiversideProfile.json';
-import ryderJson from './files/RiversideProfile.json';
-import wernerJson from './files/RiversideProfile.json';
-
-
-
-
-
-
- 
-
 const themeObject ={
   palette: {
     type: "light"
@@ -179,17 +164,7 @@ const App =()=>{
                 </Fragment>
               }
             />
-            <Route
-                exact
-                path='/riverside'
-                render={(props)=>
-                  <Fragment>
-                
-                    <Profile prods={riverJson}>Riverside</Profile>
-                  
-                  </Fragment>
-                }
-              />
+            
               
                {/* <Route
                 exact

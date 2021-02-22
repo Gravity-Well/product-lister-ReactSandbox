@@ -19,9 +19,7 @@ const Navbar = ({icon,title}) =>{
 
             <ul>
                 
-                {/* <li>
-                <Link to='/riverside'>Riverside</Link>
-                </li> */}
+               
                 <li>
                 <Link to='/widgets'>Widgets</Link>
                 </li>
